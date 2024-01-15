@@ -1,0 +1,82 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #262626;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.score-table {
+    margin-top: 24px;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+
+.players p {
+    font-size: 18px;
+    display: inline-block;
+    color: #262626;
+    background: #D92534;
+    border-radius: 3px 3px 0 0;
+    padding: 0px 4px;
+}
+
+.score {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 50px 20px 50px;
+    width: 120px;
+    height: 60px;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    border-radius: 8px;
+}
+
+.score p {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.result {
+    color: #fff;
+    font-weight: 600;
+    height: 24px;
+    margin: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    background: #fff;
+    color: #262626;
+    padding: 5px 8px;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #262626;
+    color: #fff;
+    border: 3px solid #fff;
+}
